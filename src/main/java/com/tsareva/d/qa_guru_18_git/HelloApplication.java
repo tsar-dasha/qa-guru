@@ -2,7 +2,30 @@ package com.tsareva.d.qa_guru_18_git;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Scene;
+import javafx.scene.Scene;    fx:controller="com.tsareva.d.qa_guru_18_git.HelloController">
+    <padding>
+        fx:controller="com.tsareva.d.qa_guru_18_git.HelloController">
+    <padding>
+        fx:controller="com.tsareva.d.qa_guru_18_git.HelloController">
+    <padding>
+        fx:controller="com.tsareva.d.qa_guru_18_git.HelloController">
+    <padding>
+        fx:controller="com.tsareva.d.qa_guru_18_git.HelloController">
+    <padding>
+        fx:controller="com.tsareva.d.qa_guru_18_git.HelloController">
+    <padding>
+
+        fx:controller="com.tsareva.d.qa_guru_18_git.HelloController">
+    <padding>
+        fx:controller="com.tsareva.d.qa_guru_18_git.HelloController">
+    <padding>
+        fx:controller="com.tsareva.d.qa_guru_18_git.HelloController">
+    <padding>
+
+        fx:controller="com.tsareva.d.qa_guru_18_git.HelloController">
+    <padding>
+        fx:controller="com.tsareva.d.qa_guru_18_git.HelloController">
+    <padding>
 import javafx.stage.Stage;
 
 import java.io.IOException;
