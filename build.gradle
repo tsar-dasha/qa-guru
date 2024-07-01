@@ -1,43 +1,10 @@
-plugins {
-    id 'java'
-    id 'application'
-    id 'org.openjfx.javafxplugin' version '0.0.10'
-}
+package guru.qa;
 
-group 'com.tsareva.d'
-version '1.0-SNAPSHOT'
+public class Main {
 
-repositories {
-    mavenCentral()
-}
+    private static String msg = "Hello qa.guru!";
 
-ext {
-    junitVersion = '5.7.1'
-}
-
-sourceCompatibility = '11'
-targetCompatibility = '11'
-
-tasks.withType(JavaCompile) {
-    options.encoding = 'UTF-8'
-}
-
-application {
-    mainModule = 'com.tsareva.d.qa_guru_18_git'
-    mainClass = 'com.tsareva.d.qa_guru_18_git.HelloApplication'
-}
-
-javafx {
-    version = '11.0.2'
-    modules = ['javafx.controls', 'javafx.fxml']
-}
-
-dependencies {
-
-    testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
-    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
-}
-
-test {
-    useJUnitPlatform()
+    public static void main(String... args) {
+        System.out.println(msg);
+    }
 }
